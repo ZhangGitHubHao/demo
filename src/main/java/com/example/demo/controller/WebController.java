@@ -77,13 +77,5 @@ public class WebController extends BaseController {
 
         return new ResultMsg(0,"",null);
     }
-
-    public static void main(String[] args) {
-        String message = GetMessage.getMessage(MessageConsts.EA_ZERO_ZERO_ZERO_ZERO);
-        System.out.println(message);
-
-        String message2 = GetMessage.getMessage(MessageConsts.EA_ZERO_ZERO_ZERO_ZER);
-        System.out.println(message2);
-
-    }
+    
 }
