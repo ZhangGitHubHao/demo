@@ -7,22 +7,12 @@ public class User {
 
     private String gender;
 
-    public User(String name, Integer age, String gender) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-    }
-
-    public User() {
-        super();
-    }
-
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+        this.name = name;
     }
 
     public Integer getAge() {
@@ -38,15 +28,6 @@ public class User {
     }
 
     public void setGender(String gender) {
-        this.gender = gender == null ? null : gender.trim();
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", gender='" + gender + '\'' +
-                '}';
+        this.gender = gender;
     }
 }

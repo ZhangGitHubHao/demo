@@ -13,7 +13,7 @@ public class TestDemo {
         list.add("why技术");
         System.out.println("before remove:"+list);
         for (String item: list) {
-            if (item.equals("why技术")){
+            if ("why技术".equals(item)){
                 list.remove(item);
             }
         }
