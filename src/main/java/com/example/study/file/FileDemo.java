@@ -5,7 +5,9 @@ import java.io.IOException;
 
 public class FileDemo {
     public static void main(String[] args) {
-        FileDemo fileDemo = new FileDemo();
+        System.out.println(args[0]);
+        System.out.println(args[1]);
+//        FileDemo fileDemo = new FileDemo();
 
 //        String creatFile1 = "D:" + File.separator + "file1.txt";
 //        String creatFile2 = "D:" + File.separator + "file2.txt";
@@ -19,7 +21,7 @@ public class FileDemo {
 //        fileDemo.createFile(dir+File.separator+"test2.txt");
 //        fileDemo.createFile(dir+File.separator+"test3.txt");
 
-        fileDemo.showDirFileList(dir);
+//        fileDemo.showDirFileList(dir);
 
     }
 

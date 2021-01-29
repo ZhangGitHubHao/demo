@@ -2,7 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.dao.CategoryDAO;
 import com.example.demo.pojo.Category;
-import com.example.demo.response.ResultMsg;
+import com.example.demo.pojo.response.ResultMsg;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

@@ -19,6 +19,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class WebServerImpl implements WebServer {
     @Autowired
     UserMapper userMapper;
+
     @Override
     @Transactional(rollbackFor=RuntimeException.class)
     public void method() throws NullPointerException{

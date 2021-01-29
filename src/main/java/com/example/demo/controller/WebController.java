@@ -2,7 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.controller.form.ValidationResult;
 import com.example.demo.pojo.User;
-import com.example.demo.response.ResultMsg;
+import com.example.demo.pojo.response.ResultMsg;
 import com.example.demo.server.WebServer;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

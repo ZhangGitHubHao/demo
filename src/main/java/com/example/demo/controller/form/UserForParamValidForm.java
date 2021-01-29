@@ -1,12 +1,13 @@
 package com.example.demo.controller.form;
 
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 /**
  * @author zhangh
  */
 public class UserForParamValidForm {
-    @NotNull
+    @NotBlank
     private String name;
 
     public String getName() {
